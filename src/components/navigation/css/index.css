@@ -1,0 +1,156 @@
+#box {
+    height: 100px;
+  --hover-color: #409EFF;
+  --font-color : #666666
+}
+
+.havenOrNoAccount{
+  width: 100%;
+  color:var(--hover-color);
+  text-align: center;
+}
+
+.havenOrNoAccount:hover{
+  cursor:pointer;
+}
+
+/* 登陆弹框*/
+#loginDialog{
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.loginButtns{
+    display: flex;
+    margin-top:1rem
+}
+  
+.loginButtns .button{
+    flex: 1;
+}
+
+#loginningSelect{
+  display: flex;
+  align-items: center;
+  height:30px;
+  position:relative;
+}
+#loginningSelect #unRemberPassword{
+  display: inline-block;
+  position: absolute;
+  margin: 0%;
+  right: 0;
+}
+
+#no_logined a:hover{
+  color:var(--hover-color);
+}
+
+#no_logined a{
+  color:var(--font-color);
+}
+
+#otherLogin{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#otherLogin #otherItems{
+  display: flex;
+  align-items: center;
+}
+.input_margin{
+  margin-top: 5px;
+}
+/* 注册弹框*/
+#registerDialog .registerationButton{
+  margin-top: 5%;
+  width: 100%;
+}
+#router {
+  height: 32px;
+  background-color:#cccccc;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+#router ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  margin-left: 20px;
+  padding: 0;
+}
+
+#router ul li {
+  text-align: center;
+  font-size: 13px;
+  margin: 5px;
+  float: left;
+  align-items: center;
+  color: #666666;
+}
+
+#router ul li:hover {
+  cursor: pointer;
+  color: var(--color-basis);
+}
+#search {
+    position: absolute;
+    right: 16%;
+}
+#user {
+    position: absolute;
+    right: 5%;
+    align-items: center;
+}
+#user #logined {
+    display: flex;
+    align-items: center;
+}
+#user #logined:hover {
+    cursor: pointer;
+    align-items: center;
+}
+#top {
+  height: 64px;
+  display: flex;
+  padding: 10px;
+  position: relative;
+  background-color: whitesmoke;
+  align-items: center;
+}
+
+#user #username {
+    display: inline-block;
+}
+.verification{
+  width: 100%;
+  display: flex;
+}
+.verification .verification_code{
+  width:50%;
+}
+
+.verification .verification_code_btn{
+  position: absolute;
+  right: 0;
+}
+a {
+  margin: 5px;
+}
+  
+input{
+  margin-bottom: 2%;
+}
+/* 下拉菜单*/
+.el-dropdown {
+  vertical-align: top;
+}
+.el-dropdown + .el-dropdown {
+  margin-left: 15px;
+}
+.el-icon-arrow-down {
+    font-size: 12px;
+}
